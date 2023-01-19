@@ -1,0 +1,43 @@
+scope dan variable
+
+scope adalah lingkup variabel / bagaimana variabel dalam koding diakses
+
+jenis scope 
+1. block scope
+    ==>>digunakan oleh program C dan Java
+
+2.function scope
+    ==>>digunakan oleh program JavaScript
+
+---------contoh-----------------
+//var a merupakan global scope / window scope
+var a = 1;
+
+function tes(){
+    var b = 2;
+    console.log(b);
+}
+console.log(a);
+
+contoh2 :
+var b = 1
+function tes(){
+    //name conflict dimana variable window b tidak dapat ditimpa oleh variable function b
+    var b = 2;
+    console.log(window.b);  //menampilkan variable window b
+}
+console.log(a);
+
+contoh 3:
+"use strict";
+function tes(){
+     b = 2;
+    console.log(b);
+}
+
+contoh 4;
+var a = 1;
+function tes(a){
+    console.log(a);
+}
+tes(2); 
