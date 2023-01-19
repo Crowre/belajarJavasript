@@ -1,0 +1,38 @@
+rekursif
+
+rekursif adalah sebuah fungsi yang memanggil dirinya sendiri
+
+penggunaan rekursif harus berakhir dan menghasilkan nilai
+
+for(var i=10;i>=1;i--){
+    console.log(i);
+}
+
+diganti dengan :
+
+function tampilAngka(n){
+    console.log(n);
+    return tampilAngka(n-1)     //tidak ada kondisi akhir rekursif
+}
+tampilAngka(10);
+
+kondisi berhentinya disebut dengna Base case
+
+function cetakAngka(n){
+    if(n===0){          //base case
+        return;
+    }
+    console.log(n);
+    cetakAngka(n-1);
+}
+cetakAngka(10);
+
+contoh rekursif ======>>>bilangan faktorial
+
+function faktorial(n){
+    if(n===0) return 1;
+    return n * faktorial(n-1);
+}
+
+semua looping bisa dibuat rekursif tapi tidak semua rekursif dibuat looping
+
