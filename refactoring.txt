@@ -1,0 +1,38 @@
+refactoring dalam koding
+
+refactoring adalah sebuah proses mengubah kode agar menjadi lebih 'baik'
+tanpa mengubah fungsionalitasnya
+
+fungsi refactoring
+1.Readability 
+2.DRY (Don't Repeat Yourself)
+3.Testability
+4.Performance
+5.Maintainability
+
+
+materi refactoring sederhana
+
+function jumlahVolumeKubus(sisiA, sisiB) {
+
+    var volumeA;
+    var volumeB;
+    var total;
+
+    volumeA = sisiA * sisiA * sisiA;
+    volumeB = sisiB * sisiB * sisiB;
+
+    total = volumeA + volumeB;
+
+    return total;
+}
+
+console.log(jumlahVolumeKubus(8, 3));
+
+---------------diubah menjadi:-----------------
+
+function jumlahVolumeKubus(sisiA, sisiB) {
+    return sisiA * sisiA * sisiA + sisiB * sisiB * sisiB;
+}
+
+console.log(jumlahVolumeKubus(8, 3));
