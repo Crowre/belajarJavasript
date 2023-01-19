@@ -1,0 +1,20 @@
+Normal Flow
+==>>>jika kita memiliki lebih dari satu statement, maka statement akan dieksekusi dari
+	atas ke bawah atau dari kiri ke kanan
+
+Pengulangan (loop / iteration)
+
+alert('mulai');
+for(var i = 0; i < 5; i++){
+	alert('hello');
+}
+alert('selesai');
+
+pengkondisian
+
+var angka = prompt ('masukkan angka:');
+if (angka%2 ===0){
+	alert(angka + 'adalah bilangan GENAP');
+}else{
+	alert (angka + 'adalah bilangan GANJIL');
+}

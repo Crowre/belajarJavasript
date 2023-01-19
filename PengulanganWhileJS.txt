@@ -1,0 +1,17 @@
+while(kondisi){	==>>Selama kondisi bernilai true
+	aksi		==>>lakukan aksi
+}
+
+
+jika looping ingin diberhentikan oleh program
+
+nilai awal
+while(kondisi terminasi){
+	
+	aksi
+
+	increment/decrement
+}
+
+
+
