@@ -1,0 +1,16 @@
+ array adalah susunan sistematis dari objek-objek yang sama
+ 
+ array adalah tipe data yang digunakan untuk mendiskripsikan kumpulan
+ elemen(nilai) yang tiap-tiap elemennya memiliki index
+
+ contoh:
+
+ var angka = [`satu, dua, tiga, empat`];
+
+ array pada javascript bertipe objek
+
+ array pada javascript memiliki fungsi / method length untuk menghitung
+ jumlah elemen di dalamnya
+
+var angka = [`satu, dua, tiga`];
+console.log(angka[2]);
