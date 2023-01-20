@@ -1,0 +1,22 @@
+function declearation
+
+syntax
+function identifier (parameterList -optional){functionBody}
+
+contoh:
+function tampilPesan(nama){
+    alert (`halo ${nama}`)
+}
+
+
+
+function ekspression
+
+syntax:
+function identifier -optional (parameterList -optional){functionBody}
+
+contoh:
+var namaTampil= function tampilPesan(nama){
+    alert (`halo ${nama}`)
+}
+namaTampil(`WILDAN`);
